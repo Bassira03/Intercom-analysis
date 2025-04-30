@@ -1,10 +1,10 @@
 #Analyse-des-conversations-Intercom-Equipe-Support**
 
-🛏️ **Contexte** 
+🛏️ ##**Contexte** 
 Chez Skello, l'équipe Support utilise Intercom pour gérer les conversations clients. Afin d'améliorer le pilotage opérationnel, un besoin a été exprimé par Lorette (manager Support) pour disposer d'un reporting visuel et actionnable, mis à jour chaque semaine.
 
 
-📌 **Objectif**
+📌 ##**Objectif**
 Construire un modèle de données SQL et un reporting clair pour suivre la performance de l'équipe support (CSAT, réactivité, charge, etc.), à partir des exports Intercom. 
 
 Nettoyer et modéliser les données issues d'Intercom Suivre les indicateurs clés :
@@ -14,7 +14,7 @@ Nettoyer et modéliser les données issues d'Intercom Suivre les indicateurs cl�
 - Performance individuelle des agents support 
 - Créer un tableau de bord Power BI résumant ces KPIs
 
-📊 **Modèle de données** 
+📊 ##**Modèle de données** 
 Tables sources : 
 - conversations.csv
 - conversation_parts.csv
@@ -27,13 +27,13 @@ Vues SQL construites :
 - volume_by_weekday_hour : heatmap d'activité horaire 
 - réponse_under_5min_stats : SLA 5 minutes
 
-🗂 **Structure du projet**
+🗂 ##**Structure du projet**
 	- data/: fichiers CSV nettoyés et prêts à l'importation
 	- scripts/: scripts Python de Nettoyage des données
 	- sql/: script de création des tables, requêtes analytiques
 	- dashboard/: modèle ou capture du tableau de bord proposé
 
-📊 **Métriques suivies**
+📊 ##**Métriques suivies**
 	- CSAT moyen et taux de réponse
 	- Temps de réponse moyen
 	- % de réduction en < 5 minutes
@@ -45,7 +45,5 @@ Vues SQL construites :
 - Faut-il une granularité par canal (chat, mail, etc.) ou seulement globale ?
 - Priorisation automatique via tag ou temps d'attente ?
 
-  Dashboard
-  ![Aperçu du dashboard](images/dashboard.png)
-
+  
 
