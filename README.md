@@ -43,5 +43,9 @@ Vues SQL construites :
 💡 **Questions pour Lorette**
 - Les bots doivent-ils être exclus des analyses ?
 - Faut-il une granularité par canal (chat, mail, etc.) ou seulement globale ?
-- 	Priorisation automatique via tag ou temps d'attente ?
+- Priorisation automatique via tag ou temps d'attente ?
+
+  Dashboard
+  ![Aperçu du dashboard](images/dashboard.png)
+
 
