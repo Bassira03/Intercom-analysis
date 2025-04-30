@@ -45,5 +45,10 @@ Vues SQL construites :
 - Faut-il une granularité par canal (chat, mail, etc.) ou seulement globale ?
 - Priorisation automatique via tag ou temps d'attente ?
 
+
+Ce projet m’a permis de mettre en œuvre une démarche complète de data analyst, de la structuration des données à la visualisation métier.
+Grâce aux exports Intercom, j’ai conçu un modèle SQL robuste et un dashboard Power BI permettant à l’équipe support de suivre ses indicateurs clés (CSAT, SLA, charge, etc.).
+Une approche centrée sur les besoins métiers et facilement réutilisable pour d’autres analyses futures.
+
   
 
