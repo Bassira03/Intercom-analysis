@@ -28,8 +28,9 @@ Vues SQL construites :
 - réponse_under_5min_stats : SLA 5 minutes
 
 🗂 ##**Structure du projet**
+
 	- data/: fichiers CSV nettoyés et prêts à l'importation
-	- scripts/: scripts Python de Nettoyage des données
+	- scripts/:  scripts Python de Nettoyage des données
 	- sql/: script de création des tables, requêtes analytiques
 	- dashboard/: modèle ou capture du tableau de bord proposé
 
